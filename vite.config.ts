@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-/// <reference types="node" />
-=======
->>>>>>> ae1d8fef7780f103e8ec632f116839234babd98c
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -11,12 +7,9 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-<<<<<<< HEAD
   },
   // Add server configuration for SPA routing
   server: {
     historyApiFallback: true,
-=======
->>>>>>> ae1d8fef7780f103e8ec632f116839234babd98c
   }
 });
